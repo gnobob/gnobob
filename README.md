@@ -1,6 +1,6 @@
 # Hi 👋 I'm Dom'z Lillo Jr.
 
-🚀 CEO and FOUNDER at **Autobit** — an Industrial Safety and Truth Platform  
+🚀 CEO and FOUNDER at **AUTOBIT** — an Startup Industrial Safety and Truth Platform  
 🌍 Vision: To make every industrial workplace **transparent, accountable, and safe**  
 📍 Philippines  
 
