@@ -1,13 +1,11 @@
-# Hi 👋 I'm Dominador
+# Hi 👋 I'm Dom'z Lillo Jr.
 
-🚀 Embedded Systems | ESP32 | IoT | Robotics  
+🚀 CEO and FOUNDER at **Autobit** — an Industrial Safety and Truth Platform  
+🌍 Vision: To make every industrial workplace **transparent, accountable, and safe**  
 📍 Philippines  
 
-## 🔧 Tech Stack
-- ESP32 / Arduino
-- Python
-- B4A
-- Computer Vision
+At Autobit, we believe safety must be built on **truth, evidence, and shared responsibility**.  
+Our goal is to connect people, systems, and data—so risks are visible, actions are accountable, and **proof speaks louder than assumptions**.
 
-## 📊 GitHub Stats
-![Stats](https://github-readme-stats.vercel.app/api?username=dominadorlillo&show_icons=true)
+
+
