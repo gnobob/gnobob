@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="AUTOBIT.jpg" alt="Autobit Banner" width="100%">
+</p>
+
 # Hi 👋 I'm Dom'z Lillo Jr.
 
 🚀 CEO and FOUNDER at **AUTOBIT** — an Startup Industrial Safety and Truth Platform  
