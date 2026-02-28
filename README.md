@@ -92,7 +92,7 @@ MineSafe AI applies machine learning and real-time sensor intelligence to delive
 
 ---
 
-## 🛡️ The AutoBIT Platform: Safety & Truth
+## 🛡️ The AXONIS Platform: Safety & Truth
 
 Both GRIDSONAR and MineSafe AI are core engines of **AutoBIT's unified Safety & Truth Platform** — built on two unbreakable pillars:
 
