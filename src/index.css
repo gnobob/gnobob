@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 4%;
+    --foreground: 0 0% 100%;
+
+    --card: 0 0% 6%;
+    --card-foreground: 0 0% 100%;
+
+    --popover: 0 0% 6%;
+    --popover-foreground: 0 0% 100%;
+
+    --primary: 192 100% 50%;
+    --primary-foreground: 0 0% 4%;
+
+    --secondary: 0 0% 10%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 0 0% 12%;
+    --muted-foreground: 0 0% 60%;
+
+    --accent: 192 100% 50%;
+    --accent-foreground: 0 0% 4%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 100% / 0.1;
+    --input: 0 0% 100% / 0.1;
+    --ring: 192 100% 50%;
+
+    --radius: 0.75rem;
+
+    --glass-bg: 0 0% 100% / 0.03;
+    --glass-bg-hover: 0 0% 100% / 0.06;
+    --glass-border: 0 0% 100% / 0.1;
+    --glass-border-hover: 192 100% 50% / 0.3;
+    --glass-shadow: inset 0 1px 0 hsl(0 0% 100% / 0.1);
+    --cyan-glow: 0 0 30px hsl(192 100% 50% / 0.3);
+    --cyan-glow-strong: 0 0 40px hsl(192 100% 50% / 0.4);
+
+    --text-primary: 0 0% 100%;
+    --text-secondary: 0 0% 100% / 0.6;
+    --text-muted: 0 0% 100% / 0.35;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading font-bold tracking-tight;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-glass backdrop-blur-xl border border-glass-border;
+    box-shadow: var(--glass-shadow);
+  }
+
+  .glass-card {
+    @apply glass rounded-xl transition-all duration-300;
+  }
+
+  .glass-card:hover {
+    @apply border-glass-border-hover;
+    box-shadow: var(--glass-shadow), 0 8px 32px hsl(192 100% 50% / 0.15);
+    transform: translateY(-4px);
+  }
+
+  .glass-button {
+    @apply bg-glass-button backdrop-blur-md border border-glass-border-btn text-foreground transition-all duration-300;
+  }
+
+  .glass-button:hover {
+    background: hsl(0 0% 100% / 0.12);
+    box-shadow: var(--cyan-glow);
+  }
+
+  .glass-nav {
+    background: hsl(0 0% 4% / 0.8);
+    @apply backdrop-blur-3xl border-b border-glass-border;
+  }
+
+  .text-gradient-cyan {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(135deg, hsl(192 100% 50%), hsl(192 80% 70%));
+  }
+}
+
+/* Animated background */
+@keyframes orb-drift-1 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(80px, -60px) scale(1.1); }
+  66% { transform: translate(-40px, 40px) scale(0.95); }
+}
+
+@keyframes orb-drift-2 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(-100px, 50px) scale(1.05); }
+  66% { transform: translate(60px, -80px) scale(1.1); }
+}
+
+@keyframes orb-drift-3 {
+  0%, 100% { transform: translate(0, 0) scale(0.95); }
+  33% { transform: translate(50px, 70px) scale(1.1); }
+  66% { transform: translate(-70px, -30px) scale(1); }
+}
+
+@keyframes beam-sweep {
+  0% { opacity: 0; transform: translateX(-100%) rotate(-45deg); }
+  15% { opacity: 0.15; }
+  50% { opacity: 0.05; }
+  100% { opacity: 0; transform: translateX(200%) rotate(-45deg); }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
+}
+
+/* Marquee */
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee 40s linear infinite;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(0 0% 4%);
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(0 0% 20%);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(0 0% 30%);
+}
