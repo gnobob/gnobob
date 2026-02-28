@@ -74,7 +74,7 @@ GRIDSONAR is a **decentralized, modular electrical fault detection and predictiv
 ### ⛏️ MineSafe AI
 **AI-Powered Safety Intelligence Engine for High-Risk Mining Environments**
 
-**MineSafe AI** is an intelligent safety monitoring engine built under AutoBIT's Safety & Truth Platform — engineered to **protect lives** in one of the world's most hazardous industries.
+**MineSafe AI** is an intelligent safety monitoring engine built under AXONIS's Safety & Truth Platform — engineered to **protect lives** in one of the world's most hazardous industries.
 
 MineSafe AI applies machine learning and real-time sensor intelligence to deliver **proactive hazard detection**, risk prediction, and situational awareness in active mining operations — shifting safety culture from reactive to **predictive**.
 
