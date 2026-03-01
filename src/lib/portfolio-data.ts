@@ -91,9 +91,25 @@ export const FEATURED_PROJECT = {
   title: "GRIDSONAR",
   subtitle: "Mesh-Based Self-Healing Electrical Grid Fault Detection & AI 3D Visualization",
   category: "Deep Tech · Patent Pending · AutoBIT Flagship",
-  description:
-    "The global grid monitoring market is a $6B+ problem waiting for a decentralized answer.\n\nProblem: Legacy SCADA systems lock utilities into expensive, centralized infrastructure that breaks down exactly when and where it's needed most — during disasters, in rural regions, in developing markets.\n\nThe Solution: GRIDSONAR replaces that dependency with a mesh-intelligent, blockchain-verified platform that monitors, predicts, and responds to grid failures autonomously — with no central point of failure.\n\nFuture: Licensing GRIDSONAR as infrastructure-as-a-service to energy companies, municipalities, and governments across Southeast Asia and beyond. Patent pending.",
-  tags: ["LoRa Mesh", "Axonis Blockchain", "AI Fault Detection", "Unity3D", "Smart Contracts"],
+  sections: [
+    {
+      label: "Overview",
+      text: "The global grid monitoring market is a $6B+ problem waiting for a decentralized answer.",
+    },
+    {
+      label: "The Problem",
+      text: "Legacy SCADA systems lock utilities into expensive, centralized infrastructure that breaks down exactly when and where it\'s needed most — during disasters, in rural regions, in developing markets.",
+    },
+    {
+      label: "The Solution",
+      text: "GRIDSONAR replaces that dependency with a mesh-intelligent, blockchain-verified platform that monitors, predicts, and responds to grid failures autonomously — with no central point of failure.",
+    },
+    {
+      label: "Future",
+      text: "Licensing GRIDSONAR as infrastructure-as-a-service to energy companies, municipalities, and governments across Southeast Asia and beyond. Patent pending.",
+    },
+  ],
+  tags: ["ESP32", "LoRa Mesh", "Axonis Blockchain", "AI Fault Detection", "Unity3D", "Smart Contracts"],
   badges: ["Patent Pending", "AutoBIT Flagship"],
 };
 
@@ -103,8 +119,8 @@ export const SECONDARY_PROJECTS = [
     icon: "Factory" as const,
     title: "MineSafe AI",
     description:
-      "AI-powered safety intelligence engine for high-risk mining environments. ML-driven predictive hazard detection, real-time machine vision monitoring, and automated threshold-based safety alerts. Engine product under AXONIS's Safety & Truth Platform.",
-    tag: "MVP status",
+      "AI-powered safety intelligence engine for high-risk mining environments. ML-driven predictive hazard detection, real-time machine vision monitoring, and automated threshold-based safety alerts. Engine product under AutoBIT's Safety & Truth Platform.",
+    tag: "Patent Pending",
     tech: ["ML Safety Engine", "Machine Vision", "Edge AI", "AutoBIT Platform"],
   },
   {
@@ -112,7 +128,7 @@ export const SECONDARY_PROJECTS = [
     title: "EARLYNX — AI Cancer Screening",
     description:
       "Non-invasive AI diagnostic prototype using sensor fusion to analyze saliva samples for early cancer detection. Model consultant and developer. Student team achieved CHAMPION at 2025 regional innovation competition.",
-    tag: "🏆 Champion 2025",
+    tag: "🏆 Champion 2026",
     tech: ["Embedded AI", "Sensor Fusion", "Medical Grade", "CNN Model"],
   },
   {
@@ -120,7 +136,7 @@ export const SECONDARY_PROJECTS = [
     title: "AIR FILTRATION — Piggery IoT",
     description:
       "Smart air quality filtration device for piggery environments using Arduino Uno, MQ137 gas sensor, I2C LCD, and fan control with activated charcoal filter. Verified by DOST. CHAMPION in Innovation category 2025.",
-    tag: "🏆 Champion 2025",
+    tag: "🏆 Champion 2026",
     tech: ["Arduino Uno", "MQ137", "I2C LCD", "DOST Verified"],
   },
 ];
