@@ -33,12 +33,23 @@ const ProjectsSection = () => {
               <h3 className="text-3xl font-heading font-bold mt-3 mb-2">
                 {FEATURED_PROJECT.title}
               </h3>
-              <p className="text-muted-foreground text-sm mb-1">
+              <p className="text-muted-foreground text-sm mb-4">
                 {FEATURED_PROJECT.subtitle}
               </p>
-              <p className="text-muted-foreground text-sm leading-relaxed mt-4">
-                {FEATURED_PROJECT.description}
-              </p>
+
+              {/* Structured description with bold labels */}
+              <div className="space-y-3 mt-4">
+                {FEATURED_PROJECT.sections.map((section) => (
+                  <div key={section.label}>
+                    <span className="text-xs font-bold uppercase tracking-widest text-primary">
+                      {section.label}
+                    </span>
+                    <p className="text-muted-foreground text-sm leading-relaxed mt-1">
+                      {section.text}
+                    </p>
+                  </div>
+                ))}
+              </div>
               <div className="flex flex-wrap gap-2 mt-6">
                 {FEATURED_PROJECT.tags.map((tag) => (
                   <span key={tag} className="text-xs px-2.5 py-1 rounded-md bg-secondary text-muted-foreground">
