@@ -14,7 +14,6 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      {/* Global animation effects */}
       <ScrollProgress />
       <CursorGlow />
       <BrowserRouter>
