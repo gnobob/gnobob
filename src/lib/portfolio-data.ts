@@ -127,7 +127,7 @@ export const SECONDARY_PROJECTS = [
     icon: "Rocket" as const,
     title: "EARLYNX — AI Cancer Screening",
     description:
-      "Non-invasive AI diagnostic prototype using sensor fusion to analyze saliva samples for early cancer detection. Model consultant and developer. Student team achieved CHAMPION at 2025 regional innovation competition.",
+      "Non-invasive AI diagnostic prototype using sensor fusion to analyze saliva samples for early cancer detection. Model consultant and developer. Student team achieved CHAMPION at 2026 Congress Life and Science Category competition.",
     tag: "🏆 Champion 2026",
     tech: ["Embedded AI", "Sensor Fusion", "Medical Grade", "CNN Model"],
   },
@@ -135,7 +135,7 @@ export const SECONDARY_PROJECTS = [
     icon: "Gauge" as const,
     title: "AIR FILTRATION — Piggery IoT",
     description:
-      "Smart air quality filtration device for piggery environments using Arduino Uno, MQ137 gas sensor, I2C LCD, and fan control with activated charcoal filter. Verified by DOST. CHAMPION in Innovation category 2025.",
+      "Smart air quality filtration device for piggery environments using Arduino Uno, MQ137 gas sensor, I2C LCD, and fan control with activated charcoal filter. Verified by DOST. CHAMPION in Congress Innovation category 2026.",
     tag: "🏆 Champion 2026",
     tech: ["Arduino Uno", "MQ137", "I2C LCD", "DOST Verified"],
   },
