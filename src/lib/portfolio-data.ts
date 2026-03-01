@@ -17,7 +17,7 @@ export const PERSONAL = {
 
 export const HERO = {
   badge: "Open for Consulting & Development Projects",
-  headline: ["Robotics systems.", "AI-powered safety.", "Patent pending."],
+  headline: ["Robotics.", "AI Safety.", "Patents."],
   subheadline:
     "Founder & CEO of AutoBIT — building GRIDSONAR and MineSafe AI, decentralized fault detection and mining safety platforms powered by edge AI, mesh networking, and blockchain. 11+ years turning complex engineering into real-world results.",
   stats: [
