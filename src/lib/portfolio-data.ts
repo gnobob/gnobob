@@ -1,384 +1,153 @@
 // ============================================================
-// PORTFOLIO DATA — Dominador C. Lillo Jr. | AutoBIT
-// Last updated: 2025
+// PORTFOLIO DATA — Edit values here to update your portfolio
 // ============================================================
 
 export const PERSONAL = {
   name: "Domz Lillo",
-  title: "Founder & CEO · AutoBIT",
-  email: "autobitofficial.ph@gmail.com",
-  phone: "+63 945 560 0313",
-  location: "Surigao del Norte, Philippines",
-  linkedin: "https://www.linkedin.com/in/auto-bit-b4650a366/",
+  title: "Computer Engineer",
+  email: "autobitofficial.ph@gmail.com", 
+  location: "Surigao City", 
+  linkedin: "#", // [REPLACE]
   github: "https://github.com/gnobob",
-  facebook: "https://www.facebook.com/AutoBitOfficial/",
-  tiktok: "https://www.tiktok.com/@official_autobit/",
-  cvLink: "#",
-  university: "Surigao del Norte State University",
+  cvLink: "#", 
+  university: "Surigao del Norte State University", 
   graduationYear: "2020",
 };
 
 export const HERO = {
-  badge: "Open for Consulting & Development Projects",
-  headline: ["Robotics systems.", "AI-powered safety.", "Patent pending."],
+  badge: "Available for Projects",
+  headline: ["Robotics systems.", "IoT infrastructure.", "Built at scale."],
   subheadline:
-    "Founder & CEO of AutoBIT — building GRIDSONAR and MineSafe AI, decentralized fault detection and mining safety platforms powered by edge AI, mesh networking, and blockchain. 11+ years turning complex engineering into real-world results.",
+    "Computer engineer specializing in embedded systems, industrial automation, and edge AI deployment. From prototype to production-grade hardware.",
   stats: [
     { number: "11+", label: "Years Experience" },
-    { number: "2", label: "Patent Pending" },
-    { number: "15+", label: "Projects Built" },
-    { number: "🏆", label: "Multi-Champion 2025" },
+    { number: "ROS2", label: "Robotics Framework" },
+    { number: "PLC", label: "Industrial Control" },
+    { number: "Edge AI", label: "On-Device ML" },
   ],
 };
 
 export const MARQUEE_ITEMS = [
-  "GRIDSONAR · Patent Pending · Grid Fault Detection",
-  "MineSafe AI · Mining Safety Engine",
-  "Axonis Blockchain Protocol · Decentralized Data",
-  "ESP32 · LoRa · Mesh Networking",
-  "Computer Vision · OpenCV · Edge AI",
   "ROS2 · Robot Operating System",
-  "Android Development · IoT · Embedded Systems",
-  "Unity3D · 3D Digital Twin Visualization",
-  "Python · C++ · C# · Embedded C",
-  "PCB Design · Sensor Fusion · MQTT",
+  "PLC Programming · Siemens · Allen-Bradley",
+  "Embedded Linux · Raspberry Pi · Jetson",
+  "Computer Vision · OpenCV · Edge AI",
+  "Industrial IoT · MQTT · Modbus",
+  "PCB Design · Electronics",
+  "Python · C++ · Rust",
+  "CAD · Fusion 360 · SolidWorks",
 ];
 
 export const EXPERTISE = [
   {
-    icon: "Network" as const,
-    title: "Decentralized IoT Infrastructure",
-    description:
-      "Mesh-connected sensor networks operating peer-to-peer without continuous internet. Self-healing topologies using ESP-NOW and LoRa. Blockchain-verified data integrity via Axonis protocol with DID authentication at the edge.",
-    tags: ["ESP32", "LoRa", "Mesh P2P", "Axonis Blockchain"],
-  },
-  {
-    icon: "Eye" as const,
-    title: "AI & Computer Vision",
-    description:
-      "Edge AI deployment for anomaly detection, fault scoring, and real-time object recognition. CNN-based disease detection, thermal imaging for rescue robots, and ML model integration on constrained hardware.",
-    tags: ["OpenCV", "CNN", "TensorFlow Lite", "YOLO"],
-  },
-  {
     icon: "Cpu" as const,
-    title: "Robotics & Embedded Systems",
+    title: "Robotics & Automation",
     description:
-      "ROS2-based robot systems, autonomous navigation, and multi-robot coordination. Firmware development for microcontrollers including ESP32, STM32, and ARM Cortex. Competition-proven robotics consulting with national and regional championships.",
-    tags: ["ROS2", "ESP32", "STM32", "ARM Cortex"],
+      "ROS2-based robot systems, autonomous navigation, manipulation planning, and multi-robot coordination. Remote commissioning and debugging.",
+    tags: ["ROS2", "Navigation", "Manipulation", "Gazebo"],
   },
   {
     icon: "Zap" as const,
-    title: "Smart Energy & Grid Systems",
+    title: "Industrial IoT & PLC",
     description:
-      "Intelligent power monitoring with AI-driven fault prediction. Submeter node design with voltage, current, frequency, and THD sensing. Real-time 3D Digital Twin visualization built in Unity3D and TouchDesigner.",
-    tags: ["Power Monitoring", "Unity3D", "Smart Contracts", "Fault Detection"],
+      "PLC programming for manufacturing control systems. SCADA integration, sensor networks, and real-time data pipelines to cloud platforms.",
+    tags: ["Siemens TIA", "Modbus", "MQTT", "OPC-UA"],
+  },
+  {
+    icon: "Eye" as const,
+    title: "Computer Vision & AI",
+    description:
+      "Edge AI for quality inspection, object detection, and real-time video analytics. Model optimization for embedded deployment on Jetson and Coral.",
+    tags: ["OpenCV", "TensorRT", "YOLO", "Edge TPU"],
   },
   {
     icon: "Workflow" as const,
-    title: "Android & Software Development",
+    title: "Embedded Systems",
     description:
-      "Full-stack Android applications with online/offline hybrid support. POS systems with Bluetooth thermal printing, barcode scanning, face detection attendance, and e-learning platforms with multimedia submissions.",
-    tags: ["Android", "C#", "Firebase", "Offline-First"],
+      "Firmware development for microcontrollers and single-board computers. Linux kernel configuration, real-time systems, and hardware interfacing.",
+    tags: ["ARM Cortex", "STM32", "ESP32", "Linux RT"],
   },
   {
     icon: "Boxes" as const,
-    title: "Safety & Environmental Systems",
+    title: "PCB Design & Electronics",
     description:
-      "AI-powered safety engines for high-risk environments including mining and industrial sites. Environmental monitoring with gas sensors, flood warning systems, and DOST-verified filtration solutions deployed in real communities.",
-    tags: ["MineSafe AI", "Gas Sensors", "Safety ML", "DOST Verified"],
+      "Circuit design, PCB layout, component selection, and prototype assembly. Experience with motor controllers, sensor boards, and power systems.",
+    tags: ["KiCad", "Eagle", "SMD Assembly", "Power Electronics"],
+  },
+  {
+    icon: "Network" as const,
+    title: "System Integration",
+    description:
+      "Connecting industrial equipment to modern software stacks. APIs, databases, dashboards, and cloud infrastructure for operational visibility.",
+    tags: ["REST APIs", "TimescaleDB", "Grafana", "AWS IoT"],
   },
 ];
 
 export const FEATURED_PROJECT = {
-  title: "GRIDSONAR",
-  subtitle: "Mesh-Based Self-Healing Electrical Grid Fault Detection & AI 3D Visualization",
-  category: "Deep Tech · Patent Pending · AutoBIT Flagship",
+  title: "EARLYNX",
+  subtitle: "AI-Powered Breast Cancer Screening Device",
+  category: "Medical Device · Patent Awarded",
   description:
-    "Decentralized modular electrical fault detection ecosystem composed of mesh-connected ESP32 sub-meter nodes operating via peer-to-peer architecture. Each pole node measures voltage, current, frequency, THD, and waveform deviations. Data is cryptographically authenticated via Axonis blockchain with DID per node. AI engine assigns fault risk scores and triggers smart contracts for automated response. Results rendered in real-time 3D Digital Twin (Unity3D + TouchDesigner) mapped to GPS coordinates. No SIM card or continuous internet required — replaces expensive SCADA systems for underserved communities.",
-  tags: ["ESP32", "LoRa Mesh", "Axonis Blockchain", "AI Fault Detection", "Unity3D 3D Twin", "Smart Contracts"],
-  badges: ["Patent Pending", "AutoBIT Flagship"],
+    "Non-invasive diagnostic prototype using AI vision and sensor fusion to analyze saliva samples for early cancer detection. National competition winner. Patent granted.",
+  tags: ["Embedded AI", "Medical Grade", "Patented", "Competition Winner"],
+  badges: ["National Winner", "Patent Awarded"],
 };
 
 export const SECONDARY_PROJECTS = [
   {
     icon: "Factory" as const,
-    title: "MineSafe AI",
+    title: "Industrial Robot Cell",
     description:
-      "AI-powered safety intelligence engine for high-risk mining environments. ML-driven predictive hazard detection, real-time machine vision monitoring, and automated threshold-based safety alerts. Engine product under AutoBIT's Safety & Truth Platform.",
-    tag: "Patent Pending",
-    tech: ["ML Safety Engine", "Machine Vision", "Edge AI", "AutoBIT Platform"],
-  },
-  {
-    icon: "Rocket" as const,
-    title: "EARLYNX — AI Breast Cancer Screening",
-    description:
-      "Non-invasive AI diagnostic prototype using sensor fusion to analyze saliva samples for early cancer detection. Model consultant and developer. Student team achieved CHAMPION at 2025 regional innovation competition.",
-    tag: "🏆 Champion 2025",
-    tech: ["Embedded AI", "Sensor Fusion", "Medical Grade", "CNN Model"],
+      "Automated pick-and-place system with vision-guided grasping. Deployed in electronics manufacturing facility.",
+    tag: "Production Deployed",
+    tech: ["ROS2", "MoveIt", "Intel RealSense"],
   },
   {
     icon: "Gauge" as const,
-    title: "AIR FILTRATION — Piggery IoT",
+    title: "PLC-to-Cloud Pipeline",
     description:
-      "Smart air quality filtration device for piggery environments using Arduino Uno, MQ137 gas sensor, I2C LCD, and fan control with activated charcoal filter. Verified by DOST. Achieved CHAMPION in Innovation category 2025.",
-    tag: "🏆 Champion 2025",
-    tech: ["Arduino Uno", "MQ137", "I2C LCD", "DOST Verified"],
+      "Real-time data bridge from factory floor PLCs to cloud dashboard. 10+ machines monitored, alerts, and analytics.",
+    tag: "Live System",
+    tech: ["Siemens S7", "MQTT", "InfluxDB"],
+  },
+  {
+    icon: "Rocket" as const,
+    title: "Autonomous Rover Prototype",
+    description:
+      "GPS-based navigation and obstacle avoidance for agricultural application. Competition entry, fully functional.",
+    tag: "Prototype",
+    tech: ["Jetson Nano", "LiDAR", "ROS2 Nav2"],
   },
 ];
 
 export const TECH_STACK = [
-  {
-    category: "AutoBIT Core",
-    icon: "Bot" as const,
-    items: ["GRIDSONAR", "MineSafe AI", "Axonis Protocol", "Safety & Truth Platform", "3D Digital Twin"],
-  },
-  {
-    category: "Embedded & Edge",
-    icon: "Cpu" as const,
-    items: ["ESP32 / ESP8266", "STM32", "Arduino", "Raspberry Pi", "ARM Cortex", "LoRa / ESP-NOW"],
-  },
-  {
-    category: "AI & Vision",
-    icon: "Eye" as const,
-    items: ["OpenCV", "CNN / YOLO", "TensorFlow Lite", "Thermal Imaging", "MediaPipe", "Matlab"],
-  },
-  {
-    category: "Blockchain & Data",
-    icon: "Network" as const,
-    items: ["Axonis Protocol", "DID Authentication", "Smart Contracts", "Distributed Ledger", "MQTT", "Firebase"],
-  },
-  {
-    category: "Robotics",
-    icon: "Settings" as const,
-    items: ["ROS2", "Autonomous Navigation", "Sensor Fusion", "Thermal ML", "MoveIt", "Competition Robotics"],
-  },
-  {
-    category: "Software & Apps",
-    icon: "Code" as const,
-    items: ["Python", "C++ / C / C#", "Embedded C", "Android (Java/Kotlin)", "Unity3D", "TouchDesigner"],
-  },
-  {
-    category: "Cloud & Backend",
-    icon: "Cloud" as const,
-    items: ["Firebase", "PostgreSQL / Neon", "REST APIs", "Docker", "Formspree", "AWS IoT"],
-  },
-  {
-    category: "Hardware & Design",
-    icon: "Box" as const,
-    items: ["PCB Design", "KiCad", "Sensor Integration", "Power Electronics", "Circuit Design", "3D Printing"],
-  },
+  { category: "Robotics", icon: "Bot" as const, items: ["ROS2 Humble/Iron", "MoveIt 2", "Nav2", "Gazebo", "RViz", "rclpy/rclcpp"] },
+  { category: "Industrial Control", icon: "Settings" as const, items: ["Siemens TIA Portal", "Allen-Bradley Studio 5000", "Modbus RTU/TCP", "OPC-UA", "SCADA"] },
+  { category: "Embedded & Edge", icon: "Cpu" as const, items: ["Jetson Nano/Orin", "Raspberry Pi", "ESP32/STM32", "Embedded Linux", "RTOS", "Buildroot/Yocto"] },
+  { category: "AI & Vision", icon: "Eye" as const, items: ["OpenCV", "TensorFlow Lite", "TensorRT", "YOLO", "MediaPipe", "Edge TPU"] },
+  { category: "Languages", icon: "Code" as const, items: ["Python", "C++", "Rust", "Bash", "Ladder Logic", "Structured Text"] },
+  { category: "Cloud & Backend", icon: "Cloud" as const, items: ["AWS IoT Core", "Azure IoT Hub", "Docker", "PostgreSQL", "InfluxDB", "Grafana"] },
+  { category: "CAD & Design", icon: "Box" as const, items: ["Fusion 360", "SolidWorks", "KiCad", "FreeCAD", "3D Printing"] },
+  { category: "Communication", icon: "Radio" as const, items: ["MQTT", "ZeroMQ", "DDS", "CAN Bus", "I2C/SPI", "Serial/UART"] },
 ];
 
 export const PROCESS_STEPS = [
-  {
-    number: "01",
-    title: "Problem Discovery",
-    description:
-      "Understand the real-world constraints — environment, budget, hardware requirements, and risk factors. Every AutoBIT project starts with deep problem analysis before a single line of code is written.",
-  },
-  {
-    number: "02",
-    title: "Design & Simulation",
-    description:
-      "Circuit design, firmware architecture, and AI model planning. ROS2 Gazebo simulation for robotics. SPICE for electronics. 3D mockups for visualization interfaces like GRIDSONAR's Digital Twin.",
-  },
-  {
-    number: "03",
-    title: "Build & Iterate",
-    description:
-      "Prototype first version, deploy to real environment, measure performance. Iterate fast. All AutoBIT products are tested under real conditions — not just lab benches.",
-  },
-  {
-    number: "04",
-    title: "Deploy & Document",
-    description:
-      "Production deployment with full technical documentation, schematics, and code repositories. Ongoing support and monitoring. Built to run without us watching it.",
-  },
+  { number: "01", title: "Requirements & Constraints", description: "Hardware specs, environmental conditions, budget, and timeline. Clear documentation before design begins." },
+  { number: "02", title: "Design & Simulation", description: "CAD modeling, circuit design, and virtual testing. ROS2 Gazebo simulation for robotics. SPICE for electronics." },
+  { number: "03", title: "Prototype & Iteration", description: "Build first version. Test, measure, debug. Iterate on design based on real-world performance data." },
+  { number: "04", title: "Deployment & Documentation", description: "Final build, commissioning, and handoff. Full technical documentation, schematics, and code repositories." },
 ];
 
 export const EDUCATION = {
   degree: "Bachelor of Science in Computer Engineering",
   institution: PERSONAL.university,
   year: PERSONAL.graduationYear,
-  coursework: "Digital Systems, Embedded Systems, Control Systems, Robotics, Computer Vision",
+  coursework: "Digital Systems, Embedded Systems, Control Systems, Robotics",
 };
 
 export const ACHIEVEMENTS = [
-  {
-    title: "🏆 EARLYNX — Regional Innovation Champion",
-    description:
-      "AI breast cancer screening device won CHAMPION at regional competition (2025). Served as model consultant and AI developer for the student team.",
-    year: "2025",
-  },
-  {
-    title: "🏆 AIR FILTRATION — Innovation Category Champion",
-    description:
-      "Smart piggery air filtration system using Arduino, MQ137, and activated charcoal filter. Won CHAMPION in Innovation category, verified by DOST.",
-    year: "2025",
-  },
-  {
-    title: "GRIDSONAR — Patent Pending",
-    description:
-      "USPTO patent application filed for GRIDSONAR: Mesh-Based Self-Healing Electrical Grid Fault Detection and AI 3D Visualization System.",
-    year: "2025",
-  },
-  {
-    title: "MineSafe AI — Patent Pending",
-    description:
-      "Patent application filed for MineSafe AI mining safety engine under AutoBIT's Safety & Truth Platform.",
-    year: "2025",
-  },
-  {
-    title: "Robotics Regional Championship + National Qualification",
-    description:
-      "Led team to 2019 Robotics Regional Championship with national qualification. Also won regional Desktop Publishing title.",
-    year: "2019",
-  },
-  {
-    title: "ITECHSOFTWARE — Top-5 Tech Business",
-    description:
-      "Ranked Top-5 tech service business in Surigao del Norte based on Google Rating. Served clients across hardware, software, and embedded systems.",
-    year: "2020–2024",
-  },
-];
-
-// Extended project list (for future database integration with Neon)
-export const ALL_PROJECTS = [
-  {
-    id: "gridsonar",
-    title: "GRIDSONAR",
-    category: "Deep Tech · Flagship",
-    status: "Patent Pending",
-    year: "2025",
-    description: "Decentralized mesh-based electrical grid fault detection with AI 3D visualization and Axonis blockchain integration.",
-    tech: ["ESP32", "LoRa", "Axonis", "Unity3D", "AI", "Smart Contracts"],
-  },
-  {
-    id: "minesafe",
-    title: "MineSafe AI",
-    category: "Safety Platform",
-    status: "Patent Pending",
-    year: "2025",
-    description: "AI-powered safety intelligence engine for high-risk mining environments with predictive hazard detection.",
-    tech: ["ML", "Machine Vision", "Edge AI", "IoT Sensors"],
-  },
-  {
-    id: "earlynx",
-    title: "EARLYNX",
-    category: "Medical AI",
-    status: "🏆 Champion 2025",
-    year: "2025",
-    description: "AI breast cancer screening device using sensor fusion. Regional innovation champion.",
-    tech: ["Embedded AI", "Sensor Fusion", "CNN", "Medical"],
-  },
-  {
-    id: "airfiltration",
-    title: "AIR FILTRATION",
-    category: "Environmental IoT",
-    status: "🏆 Champion 2025",
-    year: "2025",
-    description: "Smart piggery air quality filter with MQ137 gas sensor and charcoal filtration. DOST verified.",
-    tech: ["Arduino Uno", "MQ137", "I2C", "DOST Verified"],
-  },
-  {
-    id: "resqbot",
-    title: "RESQBOT",
-    category: "Robotics",
-    status: "Deployed",
-    year: "2023",
-    description: "Firetruck rescue robot with thermal image processing and ML for obstacle avoidance and human/fire detection.",
-    tech: ["Robotics", "Thermal Imaging", "ML", "ESP32"],
-  },
-  {
-    id: "ecoturbine",
-    title: "ECOTURBINE",
-    category: "Renewable Energy",
-    status: "Deployed",
-    year: "2023",
-    description: "Hybrid waterwheel turbine with Android real-time monitoring for voltage, current, power, RPM, and water flow.",
-    tech: ["IoT", "Android", "ESP32", "Renewable Energy"],
-  },
-  {
-    id: "squid-dryer",
-    title: "Squid Dryer Monitoring System",
-    category: "Industrial IoT",
-    status: "Deployed",
-    year: "2022",
-    description: "Advanced monitoring system for squid drying processes with real-time environmental controls.",
-    tech: ["ESP32", "IoT", "Industrial Automation"],
-  },
-  {
-    id: "flood-warning",
-    title: "Cantilan Bridge Flood Warning",
-    category: "Public Safety IoT",
-    status: "Live System",
-    year: "2022",
-    description: "Real-time flood monitoring system with Android app, ESP microcontrollers, Firebase, and ultrasonic sensors.",
-    tech: ["ESP32", "Firebase", "Android", "Ultrasonics"],
-  },
-  {
-    id: "bottle-wifi",
-    title: "Plastic Bottle WiFi",
-    category: "Sustainability",
-    status: "Deployed",
-    year: "2022",
-    description: "Eco-friendly internet kiosk that exchanges plastic bottles for WiFi access time, promoting sustainability.",
-    tech: ["ESP8266", "IoT", "Sustainability"],
-  },
-  {
-    id: "sercim",
-    title: "SERCiM",
-    category: "Energy Management",
-    status: "Deployed",
-    year: "2022",
-    description: "Smart Energy Regulator and Circuit Monitoring System for efficient power management and safety.",
-    tech: ["ESP32", "Energy", "Circuit Design"],
-  },
-  {
-    id: "cacao-monitoring",
-    title: "Cacao Monitoring System",
-    category: "AgriTech",
-    status: "Deployed",
-    year: "2021",
-    description: "Raspberry Pi image processing cacao dryer with negative light moisture detection.",
-    tech: ["Raspberry Pi", "Image Processing", "IoT"],
-  },
-  {
-    id: "elearn",
-    title: "E-LEARN Android App",
-    category: "EdTech",
-    status: "Deployed",
-    year: "2021",
-    description: "Hybrid online/offline Android app for student-teacher interaction with PDF reading and multimedia submissions.",
-    tech: ["Android", "Firebase", "Offline-First", "Multimedia"],
-  },
-  {
-    id: "pos",
-    title: "POS Android App",
-    category: "Business Software",
-    status: "Pilot Testing 2025",
-    year: "2025",
-    description: "Advanced online/offline POS with barcode scanning via camera, Bluetooth thermal receipt printing. Pilot launching in Surigao del Norte.",
-    tech: ["Android", "Bluetooth", "Barcode", "Finance"],
-  },
-  {
-    id: "face-attendance",
-    title: "Face Attendance System",
-    category: "Security",
-    status: "Deployed",
-    year: "2021",
-    description: "Live face detection attendance system with real-time time-in/time-out monitoring.",
-    tech: ["C#", "Face Detection", "Real-Time", "Security"],
-  },
-  {
-    id: "pechaytech",
-    title: "PechayTech Android App",
-    category: "AgriTech AI",
-    status: "Deployed",
-    year: "2021",
-    description: "Android + Matlab mobile app using built-in camera for CNN-based pechay leaf disease detection.",
-    tech: ["Android", "Matlab", "CNN", "AgriTech"],
-  },
+  { title: "National Innovation Competition Winner", description: "EARLYNX AI diagnostic device — recognized for technical innovation and impact potential.", year: "2024" },
+  { title: "Patent Awarded", description: "AI-based medical diagnostic system — patent granted for novel approach to non-invasive screening.", year: "2024" },
 ];
 
 export const NAV_ITEMS = [
