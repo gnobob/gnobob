@@ -1,0 +1,44 @@
+/* ============================================================
+   AUTOBIT PORTFOLIO — Global Animation Styles
+   Add this to your src/index.css or src/App.css
+   ============================================================ */
+
+/* Scroll progress shimmer */
+@keyframes shimmer {
+  0%   { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* Floating hero element */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-12px); }
+}
+
+/* Pulse glow for CTA buttons */
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(0, 212, 255, 0.35); }
+  50%       { box-shadow: 0 0 20px 10px rgba(0, 212, 255, 0.08); }
+}
+
+/* Subtle grid scanline background (optional tech aesthetic) */
+@keyframes scanline {
+  0%   { background-position: 0 0; }
+  100% { background-position: 0 100px; }
+}
+
+.float-element {
+  animation: float 4s ease-in-out infinite;
+}
+
+.pulse-cta {
+  animation: pulse-glow 2.5s ease-in-out infinite;
+}
+
+/* Respect reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  .float-element,
+  .pulse-cta {
+    animation: none !important;
+  }
+}
