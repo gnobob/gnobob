@@ -24,7 +24,7 @@ export const HERO = {
     { number: "11+", label: "Years Experience" },
     { number: "2", label: "Patents Pending" },
     { number: "15+", label: "Projects Built" },
-    { number: "🏆 x2", label: "Champion 2025" },
+    { number: "🏆 x2", label: "Champion 2026" },
   ],
 };
 
