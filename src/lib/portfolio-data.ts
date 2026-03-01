@@ -221,28 +221,28 @@ export const EDUCATION = {
 
 export const ACHIEVEMENTS = [
   {
-    title: "🏆 EARLYNX — Regional Innovation Champion",
+    title: "🏆 EARLYNX — Life and Science Category Champion",
     description:
-      "AI breast cancer screening device won CHAMPION at regional competition (2025). Served as model consultant and AI developer for the student team.",
-    year: "2025",
+      "AI breast cancer screening device won CHAMPION at Congress Life and Science Category (2026). The model evaluated by DOST and been offered a PATENT. Served as a model consultant and AI developer for the student team.",
+    year: "2026",
   },
   {
     title: "🏆 AIR FILTRATION — Innovation Category Champion",
     description:
-      "Smart piggery air filtration system using Arduino, MQ137, and activated charcoal filter. Won CHAMPION in Innovation category. Verified by DOST.",
-    year: "2025",
+      "Smart piggery air filtration system using Arduino, MQ137, and activated charcoal filter. Won CHAMPION in the Innovation category. Verified by DOST.",
+    year: "2026",
   },
   {
     title: "GRIDSONAR — Patent Pending",
     description:
       "Patent application filed for GRIDSONAR: Mesh-Based Self-Healing Electrical Grid Fault Detection and AI 3D Visualization System.",
-    year: "2025",
+    year: "2026",
   },
   {
     title: "MineSafe AI — Patent Pending",
     description:
       "Patent application filed for MineSafe AI mining safety engine under AutoBIT's Safety & Truth Platform.",
-    year: "2025",
+    year: "2026",
   },
   {
     title: "Robotics Regional Championship + National Qualification",
