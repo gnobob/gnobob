@@ -4,6 +4,26 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* ── Portfolio Animations ── */
+@keyframes shimmer {
+  0%   { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-12px); }
+}
+
+.float-element {
+  animation: float 4s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .float-element { animation: none !important; }
+}
+
 @layer base {
   :root {
     --background: 0 0% 4%;
