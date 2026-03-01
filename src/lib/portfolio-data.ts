@@ -5,13 +5,13 @@
 export const PERSONAL = {
   name: "Domz Lillo",
   title: "Computer Engineer",
-  email: "email@example.com", // [REPLACE]
-  location: "Your City", // [REPLACE]
+  email: "autobitofficial.ph@gmail.com", 
+  location: "Surigao City", 
   linkedin: "#", // [REPLACE]
-  github: "#", // [REPLACE]
-  cvLink: "#", // [REPLACE]
-  university: "Your University", // [REPLACE]
-  graduationYear: "2024", // [REPLACE]
+  github: "https://github.com/gnobob",
+  cvLink: "#", 
+  university: "Surigao del Norte State University", 
+  graduationYear: "2020",
 };
 
 export const HERO = {
@@ -20,7 +20,7 @@ export const HERO = {
   subheadline:
     "Computer engineer specializing in embedded systems, industrial automation, and edge AI deployment. From prototype to production-grade hardware.",
   stats: [
-    { number: "5+", label: "Years Experience" },
+    { number: "11+", label: "Years Experience" },
     { number: "ROS2", label: "Robotics Framework" },
     { number: "PLC", label: "Industrial Control" },
     { number: "Edge AI", label: "On-Device ML" },
