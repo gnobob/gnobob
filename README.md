@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- AUTOBIT Company Logo -->
-<img src="AUTOBIT.jpg" alt="Autobit" width="320" />
+<img src="AUTOBIT.jpg" alt="Autobit" width="520" />
 
 <br/><br/>
 
