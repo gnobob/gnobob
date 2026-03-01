@@ -92,8 +92,8 @@ export const FEATURED_PROJECT = {
   subtitle: "Mesh-Based Self-Healing Electrical Grid Fault Detection & AI 3D Visualization",
   category: "Deep Tech · Patent Pending · AutoBIT Flagship",
   description:
-    "Decentralized modular electrical fault detection ecosystem composed of mesh-connected ESP32 sub-meter nodes operating via peer-to-peer architecture. Each pole node measures voltage, current, frequency, THD, and waveform deviations. Data is cryptographically authenticated via Axonis blockchain with DID per node. AI engine assigns fault risk scores and triggers smart contracts for automated response. Results rendered in real-time 3D Digital Twin (Unity3D + TouchDesigner) mapped to GPS coordinates. No SIM card or continuous internet required — replaces expensive SCADA systems for underserved communities.",
-  tags: ["ESP32", "LoRa Mesh", "Axonis Blockchain", "AI Fault Detection", "Unity3D", "Smart Contracts"],
+    "The global grid monitoring market is a $6B+ problem waiting for a decentralized answer.\n\nProblem: Legacy SCADA systems lock utilities into expensive, centralized infrastructure that breaks down exactly when and where it's needed most — during disasters, in rural regions, in developing markets.\n\nThe Solution: GRIDSONAR replaces that dependency with a mesh-intelligent, blockchain-verified platform that monitors, predicts, and responds to grid failures autonomously — with no central point of failure.\n\nFuture: Licensing GRIDSONAR as infrastructure-as-a-service to energy companies, municipalities, and governments across Southeast Asia and beyond. Patent pending.",
+  tags: ["LoRa Mesh", "Axonis Blockchain", "AI Fault Detection", "Unity3D", "Smart Contracts"],
   badges: ["Patent Pending", "AutoBIT Flagship"],
 };
 
@@ -103,8 +103,8 @@ export const SECONDARY_PROJECTS = [
     icon: "Factory" as const,
     title: "MineSafe AI",
     description:
-      "AI-powered safety intelligence engine for high-risk mining environments. ML-driven predictive hazard detection, real-time machine vision monitoring, and automated threshold-based safety alerts. Engine product under AutoBIT's Safety & Truth Platform.",
-    tag: "Patent Pending",
+      "AI-powered safety intelligence engine for high-risk mining environments. ML-driven predictive hazard detection, real-time machine vision monitoring, and automated threshold-based safety alerts. Engine product under AXONIS's Safety & Truth Platform.",
+    tag: "MVP status",
     tech: ["ML Safety Engine", "Machine Vision", "Edge AI", "AutoBIT Platform"],
   },
   {
