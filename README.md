@@ -18,9 +18,9 @@
 
 ## 👤 About Me
 
-I'm **Dominador C. Lillo Jr. (Domz)** — **Founder & CEO of AurtifAI**, a deep-tech engineering team building next-generation **AI safety infrastructure** for the real world.
+I'm **Dominador C. Lillo Jr. (Domz)**, **Founder & CEO of AurtifAI**, a deep-tech engineering team building next-generation **AI safety infrastructure** for the real world.
 
-I design and lead systems that go beyond automation — systems that **detect, predict, protect, and cryptographically verify reality**. My work spans **edge AI, robotics, decentralized systems, and mission-critical safety platforms** designed for environments where failure is not an option.
+I design and lead systems that go beyond automation, systems that **detect, predict, protect, and cryptographically verify reality**. My work spans **edge AI, robotics, decentralized systems, and mission-critical safety platforms** designed for environments where failure is not an option.
 
 ---
 
