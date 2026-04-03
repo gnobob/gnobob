@@ -5,7 +5,7 @@
 
 export const PERSONAL = {
   name: "Domz Lillo",
-  title: "Founder & CEO · AutoBIT",
+  title: "Founder & CEO · AurtifAI",
   email: "autobitofficial.ph@gmail.com",
   location: "Surigao del Norte, Philippines",
   linkedin: "https://www.linkedin.com/in/auto-bit-b4650a366/",
@@ -19,7 +19,7 @@ export const HERO = {
   badge: "Open for Consulting & Development Projects",
   headline: ["Robotics.", "AI Safety.", "Patents."],
   subheadline:
-    "Founder & CEO of AutoBIT — building GRIDSONAR and MineSafe AI, decentralized fault detection and mining safety platforms powered by edge AI, mesh networking, and blockchain. 11+ years turning complex engineering into real-world results.",
+    "Founder & CEO of AurtifAI — building GRIDSONAR and MineSafe AI, decentralized fault detection and mining safety platforms powered by edge AI, mesh networking, and blockchain. 11+ years turning complex engineering into real-world results.",
   stats: [
     { number: "11+", label: "Years Experience" },
     { number: "2", label: "Patents Pending" },
