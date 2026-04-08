@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- AurtifAI Company Logo -->
-<img src="AURTIFAI.jpg" alt="AurtifAI" width="520" />
+<img src="AUTOBIT.jpg" alt="AurtifAI" width="520" />
 
 <br/><br/>
 
